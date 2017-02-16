@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<title>JobFinds | Welcome</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="" />
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
+	
+	<!-- Javascript -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/kickstart.js"></script>
+</head>
+<body>
+<div id="container "class="grid">
+     <header>
+	    <div class="col_6 column">
+		    <h1><a href="index.html"><strong>Job</strong>Finds</h1>		
+				
+	    </div> 
+	     <div class="col_6 column right">
+		      <form id="add_job_link">
+			       <button class="large green"><i class="icon-plus"></i>Add Job</button>
+			  
+			  </form>
+		 
+		 </div>
+	 
+	 </header>
+	 
+	 <div class="col_12 column">
+				<!-- Menu Horizontal -->
+		<ul class="menu">
+		<li class="current"><a href="index.html"><i class="icon-home"></i> Home</a></li>
+		<li><a href="jobs.html"><i class="icon-desktop"></i> Browse Jobs</a></li>
+		<li><a href="register.html"><i class="icon-user"></i> Register</a></li>
+		<li><a href="login.html"><i class="icon-key"></i> Login</a></li>
+			
+		</ul>
+	 
+	 
+	  
+	  
+	  <div id="search_area" class="col_12 column">
+			<form class="horizontal" method="post" action="#">
+			<input id="keywords" type="text" placeholder="Enter Keywords..."/>
+			<select id="state_select">
+			   <option>Select State</option>
+			   <option value="DJ">Dolj</option>
+			   <option value="OT">Olt</option>
+			   <option value="GJ">Golj</option>
+			   <option value="MH">Mehedinti</option>
+			   <option value="TM">Timisoara</option>
+			   <option value="IS">Iasi</option>
+			   <option value="CJ">Cluj</option>
+			   <option value="CT">Constanta</option>
+			   <option value="B">Bucuresti</option>
+			</select>   
+			<select id="category_select">
+			       <option>Select Category</option>
+			       <option>Accounting & Banking</option>
+				   <option>Construction</option>
+				   <option>Fashion & Style</option>
+				   <option>Food & Restaurant</option>
+				   <option>Healthcare</option>
+				   <option>Retail & Sales</option>
+				   <option>Technology</option>			
+			
+			</select>
+			<button type="submit">Submit</button>
+			
+			
+			</form>	
+		</div>	
+		
+		<div id="category_block" class="col_12 column">
+		<h3>Browse Jobs</h3>
+		<ul>
+			<li><a href="jobs.html?category=1">Accounting & Banking</a></li>
+			<li><a href="jobs.html?category=1">Construction</a></li>
+			<li><a href="jobs.html?category=1">Fashion & Style</a></li>
+			<li><a href="jobs.html?category=1">Food & Restaurant</a></li>
+			<li><a href="jobs.html?category=1">Healthcare</a></li>
+			<li><a href="jobs.html?category=1">Retail & Sales</a></li>
+			<li><a href="jobs.html?category=1">Technology</a></li>
+			
+		</ul>
+	    </div>	
+		<div class="col_12 column">
+		    <h3>Latest Job Listings</h3>
+			<ul id="listings">
+			    <li>
+				    <div class="type">
+					     <span class="green">Full Time</span>
+					</div>
+				    <div class="description">
+						<h5>Senior Graphic Designer (Dolj, Dj)</h5>
+						Lorem ipsum dolor sit amet,consecteuter adipiscing elit, sed diam nonumm nibh euismod tincidunt.<a href="details.html"> <i class="icon-plus"></i>Read More</a>
+					</div>
+				</li>
+				
+                <li>
+				    <div class="type">
+					     <span class="blue">Part Time</span>
+					</div>
+				    <div class="description">
+						<h5>Registered Nourse (Timisoara, Tm)</h5>
+						Lorem ipsum dolor sit amet,consecteuter adipiscing elit, sed diam nonumm nibh euismod tincidunt.<a href="details.html"> <i class="icon-plus"></i>Read More</a>
+					</div>
+				</li>
+				
+				  <li>
+				    <div class="type">
+					     <span class="green">Full Time</span>
+					</div>
+				    <div class="description">
+						<h5>House Painter (Bucuresti, B)</h5>
+						Lorem ipsum dolor sit amet,consecteuter adipiscing elit, sed diam nonumm nibh euismod tincidunt.<a href="details.html"> <i class="icon-plus"></i>Read More</a>
+					</div>
+				</li>
+				
+				
+			
+			</ul>		
+		
+		</div>
+		
+		<div class="clearfix"></div>
+		<footer>
+		      <p>Copyright @copy;2017, JobFinds, All Rights Reserved</p>
+		</footer>
+		
+</div> <!-- End Grid -->
+</body>
+</html>
